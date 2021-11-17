@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+/* BLUE */
+.hidden {
+  display: none;
+}
+
+.global-container {
+  font-family: "Open Sans", sans-serif;
+  background-color: #d3d7ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.global-container .sub-container1 {
+  margin: auto;
+  background-color: #f2f2f2;
+  width: 600px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.global-container .sub-container1 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.global-container .sub-container1 header .header-menu {
+  margin: auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+  color: #000050;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.global-container .sub-container1 header .header-menu li {
+  cursor: pointer;
+}
+
+.global-container .sub-container1 header .header-menu #header-login-button,
+.global-container .sub-container1 header .header-menu #header-register-button {
+  background-color: transparent;
+  border: none;
+}
+
+.global-container .sub-container1 header .header-menu #header-login-button:hover + #header-login-line,
+.global-container .sub-container1 header .header-menu #header-register-button:hover + #header-login-line {
+  width: 90%;
+}
+
+.global-container .sub-container1 header .header-menu #header-login-button:hover + #header-register-line,
+.global-container .sub-container1 header .header-menu #header-register-button:hover + #header-register-line {
+  width: 90%;
+}
+
+.global-container .sub-container1 header .header-menu #header-login-line,
+.global-container .sub-container1 header .header-menu #header-register-line {
+  margin: 5px auto;
+  height: 4px;
+  width: 50%;
+  background-color: #2d38f0;
+  border-radius: 2px;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  display: block;
+}
+
+.global-container .sub-container1 .login-wrapper,
+.global-container .sub-container1 .register-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.global-container .sub-container1 .login-wrapper .client-info,
+.global-container .sub-container1 .register-wrapper .client-info {
+  margin: 0 auto;
+  width: 70%;
+  height: 60px;
+  background-color: #e5ebf5;
+  border: solid #e5ebf5 2px;
+  border-radius: 15px;
+  text-indent: 20px;
+  color: #19122b;
+  font-size: 20px;
+  font-weight: 500;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.global-container .sub-container1 .login-wrapper .client-info:focus,
+.global-container .sub-container1 .register-wrapper .client-info:focus {
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.global-container .sub-container1 .login-wrapper .client-info:not(:focus):invalid,
+.global-container .sub-container1 .register-wrapper .client-info:not(:focus):invalid {
+  border: solid #ff4242 2px;
+}
+
+.global-container .sub-container1 .login-wrapper .signin-button,
+.global-container .sub-container1 .register-wrapper .signin-button {
+  width: 30%;
+  height: 60px;
+  background-color: #313af1;
+  border: none;
+  margin: 20px auto 40px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 15px;
+  font-weight: 400;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.global-container .sub-container1 .login-wrapper .signin-button:hover,
+.global-container .sub-container1 .register-wrapper .signin-button:hover {
+  -webkit-box-shadow: 0 20px 20px rgba(49, 59, 241, 0.5);
+          box-shadow: 0 20px 20px rgba(49, 59, 241, 0.5);
+}
+/*# sourceMappingURL=style.css.map */

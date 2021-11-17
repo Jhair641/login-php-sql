@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  background-color: #d3d7ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px;
+}
+
+.container .perfil a {
+  background: #313af1;
+  padding: 7px 10px 7px 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.container .perfil span {
+  padding: 20px;
+}
+
+.container .table {
+  padding: 25px;
+}
+
+.container .table table {
+  width: 500px;
+}
+
+.container .table table tr th {
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.container .table table tr td {
+  text-align: center;
+  border: 1px solid white;
+  padding: 5px;
+}
+/*# sourceMappingURL=redirection.css.map */
